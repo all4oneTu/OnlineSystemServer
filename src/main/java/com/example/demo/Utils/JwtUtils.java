@@ -8,7 +8,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import java.util.Date;
 
 public class JwtUtils {
-    private static final String SUBJECT = "lsg_exam";
+    private static final String SUBJECT = "exam";
     private static final long EXPIRE = 1000 * 60 * 60 * 24;
 
     private static final String APP_SECRET = "liangshanguang";
